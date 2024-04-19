@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.background-deco{
+    position: absolute;
+    z-index: 1;
+    width: 25rem;
+    right: -160px;
+    top: -12px;
+}
+
+.ipl-logo{
+    position: relative;
+}
+
+.main-header{
+    background-color: #19398a;
+    font-family: rubik, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding: 5px 0 0 5px;
+    box-shadow: 0 4px 8px 0 hsl(0deg 0% 7% / 50%);
+}
+
+.logo{
+    width: 80px;
+    z-index: 2;
+}
+
+.nav-container__ul{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    list-style-type: none;
+}
+
+.nav-container__ul > li{
+    padding: 18px;
+    cursor: pointer;
+}
+
+.points-table{
+    position: relative;
+}
+
+.points-table::after{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 2px;
+    border-radius: 20%;
+    background-color: white;
+    bottom: 20%;
+    right: 35%;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+.flex-container > img{
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.fan-poll{
+    width: 70px;
+}
+
+.vc{
+    width: 70px;
+}
+
+.location{
+    font-family: rubik, sans-serif;
+    background-color: #061e59;
+    color: white;
+    padding: 10px;
+    padding-left: 80px;
+    font-size: 12px;
+}
